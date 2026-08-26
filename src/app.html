@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Subscription Sumo turns recurring bank charges into draggable sumo wrestlers." />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#d92b2b" />
+    <title>Subscription Sumo</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23f4f1ea'/%3E%3Ccircle cx='50' cy='50' r='34' fill='%23d92b2b'/%3E%3Ccircle cx='50' cy='38' r='12' fill='%23f4f1ea'/%3E%3C/svg%3E"
+    />
+    %sveltekit.head%
+  </head>
+  <body data-sveltekit-preload-data="hover" class="sumo-app">
+    <noscript>
+      <div class="noscript">
+        <h1>Subscription Sumo</h1>
+        <p>
+          Enable JavaScript to import bank CSV exports, detect recurring charges, and
+          wrestle your subscriptions out of the ring.
+        </p>
+      </div>
+    </noscript>
+    <div style="display: contents">
+      %sveltekit.body%
+    </div>
+  </body>
+</html>
